@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: 'PT Sans Caption', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.text-container {
+    width: 80%;
+    max-width: 800px;
+    text-align: justify;
+    line-height: 1.8;
+    padding-top: 50px;
+    height: 400px; /* Fixed height for container */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+#text-container {
+    margin: auto; /* Center horizontally */
+    width: 80%;
+    max-width: 800px;
+    text-align: justify;
+    line-height: 1.8;
+    padding-top: 50px;
+    height: 400px; /* Fixed height for container */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    padding: 10px 20px;
+}
+

@@ -1,0 +1,424 @@
+body {
+    margin: 0;
+}
+
+.container{
+    width: 95%;
+    max-width: 1512px;
+    margin: 110px auto 10px;
+}
+
+.line-1,
+.line-2,
+.line-3,
+.line-4 {
+    border: none;
+    border-top: 2px solid black;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.line-1 {
+    top: 110px;
+}
+
+.line-2 {
+    top: 300px;
+}
+
+.line-3 {
+    top: 500px;
+}
+
+.line-4 {
+    top: 690px;
+}
+
+.row{
+    display:flex;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    width: 90%;
+    height: 180px;
+    background-color: none;
+    align-items: center;
+}
+
+h1{
+    font-size: 12vw;
+    color: black;
+    margin: 0 auto;
+    padding-right: 12%;
+    font-family:'PT Sans Caption', sans-serif;
+    letter-spacing: 0.2em;
+}
+
+.THE{
+    padding-left:5%;
+    padding-top: 20%;
+}
+
+.LIBRARY{
+    padding-right:15%;
+    padding-top:20%;
+}
+
+.OFBABEL{
+    padding-top: 20%;
+    padding-left: 2%;
+}
+
+.prev-btn{
+    position: absolute;
+    top: 25%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+
+.next-btn{
+    position: absolute;
+    top: 25%;
+    transform: translateY(-50%);
+    right: 10px;
+}
+
+.prev-btn-2{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+
+.next-btn-2{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+}
+
+.prev-btn-3{
+    position: absolute;
+    top: 75%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+
+.next-btn-3{
+    position: absolute;
+    top: 75%;
+    transform: translateY(-50%);
+    right: 10px;
+}
+
+.top-shelf{
+    height: 160px;
+    margin-bottom: 0px;
+    background-color: none;
+    display: flex;
+    align-items: center;
+    justify-content:right;
+    overflow: hidden;
+}
+
+.books {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    writing-mode: vertical-rl;
+    text-align: right;
+    font-family: 'Source Serif 4', serif;
+    height: 100%;
+    letter-spacing: 0.1em;
+    width:100%;
+    position: relative;
+    background-color: none;
+    padding-right: 0%;
+    padding-left: 0%;
+}
+
+.slide {
+    flex: 0 0 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.books-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    writing-mode: vertical-rl;
+    text-align: right;
+    font-family: 'Source Serif 4', serif;
+    height: 100%;
+    letter-spacing: 0.1em;
+    width:665px;
+    position: relative;
+    background-color: none;
+    top: 0;
+    bottom: 0;
+}
+
+.books-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    writing-mode: vertical-rl;
+    text-align: right;
+    font-family: 'Source Serif 4', serif;
+    height: 100%;
+    letter-spacing: 0.1em;
+    width:100%;
+    position: relative;
+    background-color: none;
+    padding-right: 0%;
+    padding-left: 0%;
+    top: 0;
+    bottom: 0;
+}
+
+
+.ab-aeterno{
+    font-size: 22px;
+    margin-right: 0px;
+    margin-left: 0px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.DIVINE{
+    font-size: 25px;
+    transform: rotate(-20deg);
+    transform-origin: right top;
+    right: 20px;
+    top: 80px;
+    margin-right: -20px;
+    margin-left: 0px;
+}
+
+.unlimited{
+    font-size: 22px;
+    transform: rotate(-20deg);
+    transform-origin: right top;
+    margin-right: 50px;
+}
+
+.commentary{
+    font-size: 20px;
+    transform: rotate(-28deg);
+    margin-left: -10px;
+    margin-top: 2px;
+
+}
+
+.unending{
+    font-size: 28px;
+    transform: rotate(-28deg);
+    margin-left: -15px;
+}
+
+.HUMAN{
+    font-size: 27px;
+    margin-left: 0px;
+}
+
+.infinite{
+    font-size: 26.4px;
+    margin-left: -22px;
+}
+
+.CYCLICAL{
+    font-size: 25px;
+    margin-left: -25px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.The-Universe{
+    font-size: 18px;
+    margin-left: 30px;
+    margin-right: 40px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.INFINITE{
+    font-size: 22px;
+    margin-left:-12px;
+    margin-right: 30px;
+}
+
+.LANGUAGES{
+    font-size: 20px;
+    transform: rotate(-30deg);
+    margin-left: 10px;
+    margin-right: 40px;
+    margin-bottom: -8px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.HEXAGONAL{
+    font-size: 20px;
+    transform: rotate(-33deg);
+    margin-left: -4px;
+    margin-right: 40px;
+    margin-bottom: -8px;
+}
+
+.invariable{
+    font-size: 30px;
+    margin-left: 20px;
+    
+}
+
+.MIRROR{
+    font-size: 25px;
+    margin-left: -25px;
+}
+
+.LABYRINTH{
+    font-size: 20px;
+    margin-left:-15px;
+}
+
+.characters{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 30px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.UNIQUE{
+    font-size:25px;
+    margin-left: -20px;
+    margin-right: 30px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.SECTS{
+    font-size: 40px;
+    transform: rotate(-45deg);
+    margin-left: 0px;
+    margin-bottom: -15px;
+
+}
+
+.superstition{
+    font-size: 30px;
+    transform: rotate(-45deg);
+    margin-left: -20px;
+    margin-bottom: 5px;
+}
+
+.SECRET{
+    font-size: 25px;
+    transform: rotate(-20deg);
+    margin-left: 10px;
+}
+
+a.ab-aeterno:visited,
+a.CYCLICAL:visited,
+a.The-Universe:visited,
+a.characters:visited,
+a.UNIQUE:visited,
+a.LANGUAGES:visited
+{
+    color: black; /* Set the color to the same as unvisited state */
+    text-decoration: none; /* Remove underline */
+}
+
+.middle-shelf{
+    height: 160px;
+    margin-bottom: 5px;
+    background-color: none;
+    overflow: hidden;
+}
+
+.bottom-shelf{
+    height: 160px;
+    margin-bottom: 5px;
+    background-color:none;
+    overflow: hidden;
+}
+
+
+@media screen and (max-width: 1512px) {
+    h1 {
+        font-size: 7vw;
+        padding-right: 12%;
+    }
+
+    .THE{
+        padding-right: 7%;
+        padding-left: 4%;
+        padding-top: 6%;
+    }
+
+    .LIBRARY {
+        padding-right: 3%;
+        padding-top: 6%;
+        padding-left: 4%;
+    }
+
+    .OFBABEL{
+        padding-top: 6%;
+        padding-right:4%;
+        padding-left: 2%;
+        white-space: nowrap;
+    }
+
+    .top-shelf{
+        width: 66%;
+        margin-right: 0%;
+        margin-left: 0%;
+        margin-top: 1.5%;
+        margin-bottom: 1.5%;
+    }
+
+    .books {
+        width: 100%;
+    }
+
+    .middle-shelf{
+        width: 50%;
+        margin-right: 0%;
+        margin-left: 0%;
+        margin-top: 1.5%;
+        margin-bottom: 1.5%;
+    }
+
+    .bottom-shelf{
+        width:42%;
+        margin-right:0%;
+        margin-left: 0%;
+    }
+}

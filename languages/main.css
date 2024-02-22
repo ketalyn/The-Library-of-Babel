@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    font-family: 'PT Sans Caption', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.text-container {
+    width: 80vw;
+    text-align: justify;
+    line-height: 1.8;
+    padding-top: 50px;
+    height: 800px; /* Fixed height for container */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
