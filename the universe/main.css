@@ -9,7 +9,7 @@ body {
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 999; /* Ensure the button stays on top of other elements */
+    z-index: 999;
     font-size: 80px;
     background: none;
     border: none;
@@ -18,14 +18,9 @@ body {
 
 
 .container{
-    /* width: 96%; */
     width: 100%;
-    /* margin: 2% auto; */
     padding: 0;
     display: flex;
-    /* overflow: scroll; */
-    /* justify-content: space-between; */
-    /* align-items: center; */
     align-items: start;
     position: fixed;
     z-index: 2;
@@ -42,14 +37,10 @@ body {
 
 .column {
     position: relative;
-    /* float: left; */
-    /* box-sizing: border-box; */
     text-align: center;
-    /* height: 730px; */
     font-family: 'Source Serif 4', serif;
     background-color:none;
     overflow: auto;
-    /* margin:0 4px; */
     vertical-align: top;
     border-left: 1px solid black;
     border-right: 1px solid black;
@@ -62,7 +53,6 @@ body {
 .column-5,
 .column-6
 {
-    /* width: 16.666%; */
     flex: 1;
 }
 
@@ -2106,7 +2096,6 @@ body {
         letter-spacing: 0.1em; 
     }
     
-
 }
 
 

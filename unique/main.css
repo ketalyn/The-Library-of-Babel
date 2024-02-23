@@ -13,19 +13,19 @@ body {
     text-align: justify;
     line-height: 1.8;
     padding-top: 50px;
-    height: 400px; /* Fixed height for container */
-    overflow-y: auto; /* Enable vertical scrolling */
+    height: 400px;
+    overflow-y: auto;
 }
 
 #text-container {
-    margin: auto; /* Center horizontally */
+    margin: auto;
     width: 80%;
     max-width: 800px;
     text-align: justify;
     line-height: 1.8;
     padding-top: 50px;
-    height: 400px; /* Fixed height for container */
-    overflow-y: auto; /* Enable vertical scrolling */
+    height: 400px;
+    overflow-y: auto;
 }
 
 .prev-btn {

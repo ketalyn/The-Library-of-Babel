@@ -12,13 +12,12 @@ body {
     text-align: justify;
     line-height: 1.8;
     padding-top: 50px;
-    height: 800px; /* Fixed height for container */
-    overflow-y: auto; /* Enable vertical scrolling */
+    height: 800px;
+    overflow-y: auto;
 }
 
 .prev-btn {
-    /* Adjust button styles */
-    color: #000; /* Set button color */
-    font-size: 18px; /* Increase font size */
-    z-index: 999; /* Ensure button is on top */
+    color: #000;
+    font-size: 18px;
+    z-index: 999;
 }

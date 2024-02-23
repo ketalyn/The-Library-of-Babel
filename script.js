@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const nextBtnTop = document.querySelector('.next-btn');
     const slidesTop = document.querySelector('.books');
     let slideIndexTop = 0;
-    const totalSlidesTop = 6; // Total number of slides in the top shelf
+    const totalSlidesTop = 6;
 
     function showSlideTop(index) {
         const slideWidthPercentage = 100 / totalSlidesTop;
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const nextBtnMiddle = document.querySelector('.next-btn-2');
     const slidesMiddle = document.querySelector('.books-middle');
     let slideIndexMiddle = 0;
-    const totalSlidesMiddle = 6; // Total number of slides in the middle shelf
+    const totalSlidesMiddle = 6;
 
     function showSlideMiddle(index) {
         const slideWidthPercentage = 100 / totalSlidesMiddle;
@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const nextBtnBottom = document.querySelector('.next-btn-3');
     const slidesBottom = document.querySelector('.books-bottom');
     let slideIndexBottom = 0;
-    const totalSlidesBottom = 6; // Increase the total number of slides in the bottom shelf
+    const totalSlidesBottom = 6;
 
     function showSlideBottom(index) {
         const slideWidthPercentage = 100 / totalSlidesBottom;

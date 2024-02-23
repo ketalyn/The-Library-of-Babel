@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const textContainer = document.querySelector('.text-container'); // Changed ID to class
+    const textContainer = document.querySelector('.text-container'); 
     const toggleButton = document.getElementById('toggleButton');
     let isWordSpacingIncreased = false;
 

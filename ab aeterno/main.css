@@ -15,7 +15,7 @@ button{
 
 .container {
     display: flex;
-    background-color:rgb(253, 253, 241);
+    background-color:none;
     width: 95vw;
     height: 90vh;
     overflow: hidden;
@@ -74,27 +74,27 @@ button{
 }
 
 .marquee-l .row-1 p {
-    animation-delay: 0s; /* Marquee 1 starts immediately */
+    animation-delay: 0s;
 }
 
 .marquee-l .row-2 p {
-    animation-delay: 50s; /* Marquee 2 starts 50 seconds after Marquee 1 */
+    animation-delay: 50s;
 }
 
 .marquee-l .row-3 p {
-    animation-delay: 90s; /* Marquee 3 starts 40 seconds after Marquee 2 */
+    animation-delay: 90s;
 }
 
 .marquee-l .row-4 p {
-    animation-delay: 150s; /* Marquee 4 starts 60 seconds after Marquee 3 */
+    animation-delay: 150s;
 }
 
 .marquee-l .row-5 p {
-    animation-delay: 210s; /* Marquee 5 starts 60 seconds after Marquee 4 */
+    animation-delay: 210s;
 }
 
 .marquee-l .row-6 p {
-    animation-delay: 330s; /* Marquee 6 starts 120 seconds after Marquee 5 */
+    animation-delay: 330s;
 }
 
 

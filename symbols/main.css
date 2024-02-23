@@ -2,7 +2,7 @@ button.prev-btn {
     position: fixed;
     top: 20px;
     left: 20px;
-    z-index: 999; /* Ensure the button stays on top of other elements */
+    z-index: 999;
     background: none;
     border: none;
     outline: none;
@@ -22,7 +22,7 @@ body {
 
 .pyramid {
     width: 70%;
-    height: 50%; /* Adjusted height for the pyramid */
+    height: 50%;
     position: relative;
     transform-style: preserve-3d;
     animation: rotate 15s linear infinite;
@@ -35,8 +35,8 @@ body {
     left: 5%;
     text-align: center;
     transform-origin: center;
-    padding: 10px; /* Reduced padding */
-    line-height: 1.2; /* Reduced line height */
+    padding: 10px;
+    line-height: 1.2;
     font-size: 1em;
 }
 
