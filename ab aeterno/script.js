@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Add click event listener to the back button
     backButton.addEventListener('click', function() {
-        // Go back in the browser's history
-        window.history.back();
+        // Navigate to the main homepage
+        window.location.href = '../index.html'; // Adjust the path based on your folder structure
     });
 });

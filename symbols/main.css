@@ -1,3 +1,13 @@
+button.prev-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 999; /* Ensure the button stays on top of other elements */
+    background: none;
+    border: none;
+    outline: none;
+}
+
 body {
     margin: 0;
     font-family: 'PT Sans Caption', sans-serif;

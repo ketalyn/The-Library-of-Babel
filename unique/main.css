@@ -28,6 +28,12 @@ body {
     overflow-y: auto; /* Enable vertical scrolling */
 }
 
+.prev-btn {
+    background: none;
+    border: none;
+    outline: none;
+}
+
 .button {
     position: fixed;
     bottom: 20px;

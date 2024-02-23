@@ -26,6 +26,14 @@ document.addEventListener("scroll", () => {
         [0.05, 0.7, 0.95]   // Pause points for the sixth column
     ];
 
+    if (window.scrollY >= (resumePointsArray[resumePointsArray.length - 1] * scrollHeight)) {
+        // Show the button
+        document.querySelector('.prev-btn').style.display = 'block';
+    } else {
+        // Hide the button
+        document.querySelector('.prev-btn').style.display = 'none';
+    }
+
     document.querySelectorAll(".column").forEach((column, columnIndex) => {
         let pausePoints = pausePointsArray[columnIndex]; // Get pause points for the current column
         let resumePoint = resumePointsArray[columnIndex]; // Get resume point for the current column

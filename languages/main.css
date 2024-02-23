@@ -16,3 +16,9 @@ body {
     overflow-y: auto; /* Enable vertical scrolling */
 }
 
+.prev-btn {
+    /* Adjust button styles */
+    color: #000; /* Set button color */
+    font-size: 18px; /* Increase font size */
+    z-index: 999; /* Ensure button is on top */
+}
