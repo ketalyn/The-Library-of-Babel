@@ -7,6 +7,12 @@ body {
     overflow: hidden;
 }
 
+button{
+    background: none;
+    border: none;
+    outline: none;
+}
+
 .container {
     display: flex;
     background-color:rgb(253, 253, 241);
