@@ -6,10 +6,16 @@ document.addEventListener('DOMContentLoaded', function() {
     // Clear the text container
     textContainer.innerHTML = '';
 
-    // Scramble each word and append it to the text container wrapped in a span
-    words.forEach(word => {
+    // Store original and scrambled versions of each word
+    const wordData = words.map(word => ({
+        original: word,
+        scrambled: scrambleText(word)
+    }));
+
+    // Display words with initial scrambled text
+    wordData.forEach(wordObj => {
         const span = document.createElement('span');
-        span.textContent = scrambleText(word);
+        span.textContent = wordObj.scrambled;
         textContainer.appendChild(span);
         textContainer.appendChild(document.createTextNode(' ')); // Add a space after each word
     });
@@ -18,13 +24,14 @@ document.addEventListener('DOMContentLoaded', function() {
     const spans = textContainer.querySelectorAll('span');
 
     spans.forEach(span => {
-        const originalWord = span.textContent; // Store the original word
         span.addEventListener('mouseenter', function() {
+            const originalWord = wordData.find(obj => obj.scrambled === span.textContent).original;
             span.textContent = originalWord; // Restore the original word
         });
 
         span.addEventListener('mouseleave', function() {
-            span.textContent = scrambleText(originalWord); // Scramble the word again
+            const scrambledWord = wordData.find(obj => obj.original === span.textContent).scrambled;
+            span.textContent = scrambledWord; // Scramble the word again
         });
     });
 });
